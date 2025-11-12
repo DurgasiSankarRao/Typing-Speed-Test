@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test | Shankar</title>
+    <link rel="icon" href="typing-icon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header / Banner -->
+    <header class="banner">
+        <h1>Typing Speed Test</h1>
+        <button id="toggleMode" class="mode-btn">Dark Mode</button>
+    </header>
+
+    <!-- Controls -->
+    <div class="controls-section">
+        <div class="time-select">
+            <label for="timeSelect">Select Time:</label>
+            <select id="timeSelect">
+                <option value="30">30s</option>
+                <option value="60" selected>60s</option>
+                <option value="120">120s</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <main class="main-content">
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+
+        <!-- Sentence Display -->
+        <div id="sentence" class="sentence"></div>
+
+        <!-- Typing Area -->
+        <textarea id="input" placeholder="Start typing here..." rows="7"></textarea>
+
+        <!-- Bottom Stats -->
+        <div class="stats-bottom">
+            <p>Time: <span id="time">60</span>s</p>
+            <p>WPM: <span id="wpm">0</span></p>
+        </div>
+    </main>
+
+    <!-- Sidebar Stats -->
+   <aside class="stats-side">
+    <h2 class="results-title">Your Results</h2>
+    <p>Correct Words: <span id="correct">0</span></p>
+    <p>Mistakes: <span id="mistakes">0</span></p>
+    <p>Accuracy: <span id="accuracy">100</span>%</p>
+    <p>Characters Typed: <span id="chars">0</span></p>
+    <button id="restart" class="restart-btn">Restart</button>
+</aside>
+
+
+<footer class="footer">
+    <p>© 2025 Shankar@21 — All Rights Reserved 🚀</p>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

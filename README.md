@@ -29,6 +29,6 @@ It helps users measure their typing speed (WPM), accuracy, and track mistakes �
 
 ## 🚀 Live Demo
 
-🔗 [Click here to try it out!](https://durgasishankarrao.github.io/Typing-Speed-Test)
+🔗 [Click here to try it out!](https://durgasisankarrao.github.io/Typing-Speed-Test)
 
 
